@@ -6,13 +6,9 @@
 
 Allows for more flexible and efficient approach than REST.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12bdb03c-ae32-45b0-8350-cf968ac15cd9/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed9bcfb8-58b0-4c98-b779-8b1085737817/Untitled.png)
 
 If you want only few things
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cf50e14-fa81-45de-b423-f738f934fa89/Untitled.png)
 
 # REST API Drawbacks
 
@@ -24,7 +20,6 @@ Getting back more data than we need.
 
 Getting back less data than we need.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d70a24de-9395-4d6e-afa9-e1a6f4c01994/Untitled.png)
 
 # GraphQL( graph query language)
 
@@ -65,7 +60,6 @@ Query{
 
 we can do Mutations 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b93691bc-f65c-4256-8a0a-bb44a53b5a8f/Untitled.png)
 
 # Install Dependencies
 
@@ -210,7 +204,6 @@ const resolvers = {
 
 //frontend queryt making way
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33d1ef7b-d197-4f16-befd-0864a6fb1b5d/Untitled.png)
 
 ```graphql
 query ReviewsQuery($id: ID!) {
@@ -225,17 +218,12 @@ query ReviewsQuery($id: ID!) {
 
 we have to write  resolver for this also.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f97ef04-92e4-4935-a87e-325faf4761e4/Untitled.png)
 
 Here we have to mention the relations here.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f29e2d9d-ccaf-4b3e-8552-a07191881acb/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a6e1f8a-5a99-4fdf-a83c-4c6801995640/Untitled.png)
 
 ## Resolver chain.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c47042be-cbe2-4355-b1e1-317dc629f85f/Untitled.png)
 
 # Mutations:
 
@@ -262,8 +250,5 @@ Mutation:{
   }
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7f2cec6-881f-40a9-8524-6dbaf94295a0/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/390cb479-0299-4148-9e26-0d1ed2e82210/Untitled.png)
 
 # Updating Existing Resource:
